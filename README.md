@@ -28,7 +28,17 @@ Attach mermaid diagram in your markdown as follows:
 
 Then it will be extracted using the plugin, and the PNG/SVG image will be generated with the mermaid.cli usage
 
-### Requirements
+## Options
+
+### export_to_pdf (default=false)
+
+Set *export_to_pdf* to true if you want to use your svg in PDF, otherwise (static web) leave it set to false
+
+### debug (default=false)
+
+Use it to see prints to stdout, incl. what will the markdown page look like after including the images.
+
+## Requirements
 
 Plugin requires Mermaid.cli to be installed via npm:
 
